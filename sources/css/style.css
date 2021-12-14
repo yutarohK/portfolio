@@ -1,6 +1,11 @@
 body {
     margin: 0 auto;
     font-family: 'Roboto Condensed', Sans-Serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Cabin', Sans-Serif;
 }
 
 header {
@@ -24,6 +29,23 @@ header ul li a {
     font-size: larger;
 }
 
+.profile-img {
+    width: 300px;
+}
+
+img{
+    width: 100%;
+}
+
+main p {
+    line-height: 1.5;
+}
+
+.projects li {
+    list-style: none;
+}
+
+
 .skills {
     display: flex;
 }
@@ -34,16 +56,11 @@ header ul li a {
 
 }
 
+footer {
+    margin-top: 50px;
+}
+
 footer p {
     text-align: center;
 }
 
-h2 {
-    margin-left: 5rem;
-}
-
-
-
-
-/* Font-Family: 'Cabin', Sans-Serif;
-Font-Size: 16px; */
